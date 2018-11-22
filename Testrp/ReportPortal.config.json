@@ -1,0 +1,17 @@
+﻿{
+  "$schema": "https://raw.githubusercontent.com/reportportal/agent-net-nunit/master/ReportPortal.NUnitExtension/ReportPortal.config.schema",
+  "enabled": true,
+  "server": {
+    "url": "http://atqc.northeurope.cloudapp.azure.com:8090/api/v1/",
+    "project": "fluxday",
+    "authentication": {
+      "uuid": "a23b81c4-64a0-491d-942d-a2c1ce2dcf43"
+    }
+  },
+  "launch": {
+    "name": "NUnit 3 Demo Launch",
+    "description": "this is description",
+    "debugMode": true,
+    "tags": [ "t1", "t2" ]
+  }
+}
